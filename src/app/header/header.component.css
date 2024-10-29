@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FDD90B;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 130px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    font-size: 1.1em;
+    margin-right: 20px; /* Ajustez cette valeur pour contrôler la distance */
+}
+
+nav a {
+    background-color: #F9D0A3;
+    color: #151217;
+    border: 2px solid #DA001E;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Effet au survol */
+nav a:hover {
+    background-color: #DA001E;
+    color: #F9D0A3;
+}
